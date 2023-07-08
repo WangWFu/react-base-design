@@ -1,0 +1,20 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  font-size: $btn-font-size;
+  line-height: $btn-line-height;
+  color: $body-color;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border: $btn-border-width solid transparent;
+  border-radius: $btn-border-radius;
+  cursor: pointer;
+}
+.btn-primary {
+  @include button-style($primary, $primary, $white);
+}
+.btn-default {
+  @include button-style($white, $gray-400, $body-color, $white, $primary, $primary);
+}
