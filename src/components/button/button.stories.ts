@@ -7,7 +7,7 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const defButton: Story = {
+export const DefButton: Story = {
   args: {
     size: "sm",
     children: "gggg",
